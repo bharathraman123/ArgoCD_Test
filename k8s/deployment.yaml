@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: ts-app
+  annotations:
+    redeploy-timestamp: "2025-05-12T14:00:00"
   labels:
     app: ts-app
 spec:
