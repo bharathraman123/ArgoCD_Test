@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: ts-app
   annotations:
-    redeploy-timestamp: "2025-05-12T15:10:00"  # <-- UPDATED timestamp
+    redeploy-timestamp: "2025-05-12T15:20:00"  # <-- UPDATED timestamp
   labels:
     app: ts-app
 spec:
